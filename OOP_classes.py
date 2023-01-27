@@ -23,6 +23,7 @@ class Auto:
     def stop(self):
         print("stop")
 
+
     def birthday(self):
         self.age += 1
         return self.age
