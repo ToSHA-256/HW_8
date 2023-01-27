@@ -23,7 +23,6 @@ class Auto:
     def stop(self):
         print("stop")
 
-
     def birthday(self):
         self.age += 1
         return self.age
@@ -66,5 +65,5 @@ my_truck.stop()
 my_car = Car("Audi", 13, 240, mark="TT")
 dads_car = Car("Volvo", 9, 180, color="gray")
 print(f'Моей {my_car.color} {my_car.brand} {my_car.mark} исполнилось {my_car.birthday()}!')
-print("\nПерегрузка оператора move: ",)
+print("\nПерегрузка оператора move: ", )
 dads_car.move()
